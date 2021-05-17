@@ -16,4 +16,9 @@ server.get('/version', (req, res) => {
     })
 })
 
+
+server.get('/',(req,res)=>{
+    return res.render('index')
+})
+
 server.listen(3000, () => console.log('http://localhost:3000'))
