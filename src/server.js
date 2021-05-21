@@ -21,4 +21,8 @@ server.get('/',(req,res)=>{
     return res.render('index')
 })
 
+server.get('/winfit',(req,res)=>{
+    return res.render('winfit')
+})
+
 server.listen(3000, () => console.log('http://localhost:3000'))

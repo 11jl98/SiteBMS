@@ -1,0 +1,304 @@
+img{
+    width: 100px;
+    height: 60px;
+}
+.navbar{
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+h2, h3, a{
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;;
+    font-weight: 300;
+}
+#linha {
+    width: 50%;
+    border-bottom: 2px solid rgb(255, 196, 0);
+    margin-bottom: 10px;
+    margin: 10px auto;
+  }
+  #linha2 {
+    width: 30%;
+    border-bottom: 2px solid rgb(255, 196, 0);
+    margin-bottom: 10px;
+    margin: 20px auto;
+  }
+  #linha3 {
+    width: 70%;
+    border-bottom: 2px solid rgb(255, 196, 0);
+    margin-bottom: 10px;
+    margin: 20px auto;
+  }
+ body{
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: sans-serif;
+
+ }
+ .img-slide{
+   width: 80%;
+   height: 50vh;
+   display: flex;
+ }
+ .img{
+   flex: 1;
+   height: 100%;
+   transform: skew(8deg);
+   cursor: pointer;
+   margin: 0 5px;
+   transition: all 0.6s;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center;
+   position: relative;
+ }
+.img1{
+  background-image: url('http://grupobms.com.br/wp-content/uploads/2018/08/winfit-1024x576.jpg');
+}
+.img2{
+  background-image: url('http://grupobms.com.br/wp-content/uploads/2018/08/bannerSist4-1024x361.png');
+}
+.img3{
+  background-image: url('http://grupobms.com.br/wp-content/uploads/2018/09/bannerSegGeral-1024x361.png');
+}
+.img p{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  background-color: rgb(0,0,0,0.6);
+  transform: rotate(-90deg);
+  transition: all 0.8s;
+  transform-origin: 0% 0%;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.img-slide:hover .img{
+  transform: skew(0);
+
+}
+.img:hover{
+  flex: 40;
+
+}
+.img:hover p {
+  color: #fff;
+  transform: rotate(0deg);
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+.title{
+    margin-top: 80px;
+    margin-bottom: 50px;
+
+}
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(0,0,0,0.15);
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgba(10, 10, 10, 0.671);
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgba(10, 10, 10, 0.671);
+}
+footer{
+    background-color: rgb(10, 10, 10);
+}
+#myFooter {
+  background-color: #D3D3D3;
+  color: black;
+  padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+  background-color: #DCDCDC;
+ text-align: center;
+}
+
+#myFooter .row {
+  margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+  margin-top: 45px;
+  height: 65px;
+}
+
+#myFooter .footer-copyright p {
+  margin: 10px;
+  color: black;
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#myFooter h5 {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+
+#myFooter a {
+  color: black;
+  text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+}
+
+#myFooter .social-networks {
+  display: flex;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+  font-size: 32px;
+  color: #3f3d3d;
+  padding: 10px;
+  transition: 0.2s;
+}
+#myFooter .social-networks i {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#myFooter .social-networks a:hover {
+  text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+  color: #0077e2;
+}
+
+#myFooter .instagram:hover {
+  color: purple;
+}
+
+#myFooter .twitter:hover {
+  color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+  #myFooter {
+      text-align: center;
+  }
+}
+body{
+  display: flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  height: 100%;
+}
+
+.content{
+ flex: 1 0 auto;
+ -webkit-flex: 1 0 auto;
+ min-height: 80px;
+}
+
+#myFooter{
+ flex: 1 0 auto;
+ -webkit-flex: 0 0 auto;
+}
+.title2{
+  margin-top: 160px;
+  margin-bottom: 100px;
+}
+.logos{
+  border: 1px #A9A9A9 solid;
+  border-radius: 10px;
+}
+.btn1{
+  width: 150px;
+}
+#test{
+  text-align: center;
+}
+#bms{
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+#whats{
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 1000;
+ }
+.fa-whatsapp{
+  margin-top: 16px;
+}
+#whats:hover{
+  background-color: #07f75f;
+  box-shadow:0 0 1em #3f3d3d;
+  width: 70px;
+  height: 70px;
+  bottom: 30px;
+  right: 30px;
+  transition: 0.8s;
+  font-size: 40px;
+
+}
+
+.cardopiioes{
+  transition: all .8s;
+}
+.cardopiioes:hover{
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+  filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+  -webkit-transform: rotateZ(-360deg) scale(1.3);
+  transform: rotateZ(-360deg) scale(1.3);
+}
+#config-card{
+  margin-top: 80px !;
+  margin-bottom: 80px;
+}
+.imagem-apresentacao{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 30vh;
+  margin-bottom: 100px;
+}
+.card{
+  width: 520px;
+  height: 255px;
+}
+.img-fluid{
+  height: 154px !important;
+  width: 414px;
+  margin-left: 28px;
+}
+
+
+
+
+
+
