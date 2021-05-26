@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="/css/index.css" rel="stylesheet">
+
+    <title>BMS softwares</title>
+</head>
+
+<body class="fadeIn">
+    <div class="container">
+        <%- include('components/navbar'); %>
+            <div class="container">
+                <div class="container">
+                    <h2>BMS Óptica</h2>
+                    <div id="linha"></div>
+                    <div class="container mb-5">
+                        <h3>conheça nosso software de gestão para Ópticas!</h3>
+                    </div>
+                    <p>O sistema óptica trás agilidade e praticidade na hora de fazer a gestão da sua ótica, é um
+                        sistema simples
+                        e prático para cadastrar seus clientes e produtos,fazer vendas com recibos, relatórios, controle
+                        financeiro das contas
+                        a pagar e a receber e muito mais... Contamos também com a emissão de NFe e NFCe trazendo tambem
+                        tranquilidade na questão fiscal</p>
+                    <div class="container imagem-slide">
+                        <div class="imagem cadastroOp img-responsive">
+                            <p>Cadastros</p>
+                        </div>
+                        <div class="imagem vendasOp img-responsive">
+                            <p>Vendas</p>
+                        </div>
+                        <div class="imagem financeiroOp img-responsive">
+                            <p>Financeiro</p>
+                        </div>
+                        <div class="imagem serviçosOP img-responsive">
+                            <p>Serviços</p>
+                        </div>
+                    </div>
+                    <div class="container mb-5 mt-5">
+                        <h2>Cadastros!</h2>
+                        <div id="linha"></div>
+                    </div>
+                    <div class="container imagem-slide">
+                        <div class="imagem ClientesOp img-responsive">
+                            <p>Clientes</p>
+                        </div>
+                        <div class="imagem ProdutosOp img-responsive">
+                            <p>Produtos</p>
+                        </div>
+                        <div class="imagem FornecedorOp img-responsive">
+                            <p>Fornecedor</p>
+                        </div>
+                        <div class="imagem FuncionárioOP img-responsive">
+                            <p>Funcionário</p>
+                        </div>
+                    </div>
+                    <ul style="margin-top: 10px;">
+                        <li><strong>Clientes: </strong>Dentro da aba de cadastros é possível cadastrar clientes,
+                            jutamente com o diganóstico
+                            de cada, para facilitar no momento da venda venda.<br></li>
+                        <li><strong>Produtos: </strong> Os produtos podem ser cadastros de forma completa, com um
+                            estoque manual
+                            (caso prefira tambem tem o estoque por nota de compra), informações fiscais para facilitar
+                            na emissao de NF-e e NFC-e, diferentes valores
+                            para cadastar e escolher no momento de venda.<br></li>
+                        <li><strong>Fornecedor: </strong>Podem ser cadastros para facilitar nas movimetações de entrada
+                            no sistemas, ajudando a ter
+                            um controle maior do se estoque.<br></li>
+                        <li><strong>Funcionário: </strong>Cadastrando Funcionários, voce pode vincula-los a
+                            movimentações, fazendo com que seja
+                            possível definir comissões por venda e gerar relatórios para controle dessas comissão.</li>
+                    </ul>
+                    <div class="container mb-5 mt-5">
+                        <h2>Nota de compra!</h2>
+                        <div id="linha"></div>
+                    </div>
+                    <div class="container principal">
+                        <div class="container img-principal">
+                            <img class="img-responsive" src="/images/importar_xml.png" alt="">
+                        </div>
+                    </div>
+                    <p style="margin-top: 10px;">A nota de compra é uma aba específica para controle do seu estoque.
+                        Dentro da nota de
+                        compra voce pode dar entrada do sesu produtos de duas formas:<br>
+                        - Preenchendo os dados manualmente os campos e de acordo com a nota que tem em mãos e dados do
+                        fornecedor.<br>
+                        - A partir do xml da nota adiqurida. É só selecionar o xml de algum lugar do seu compuador que
+                        será dado entrada automaticamente,
+                        fazendo com que seja um processo mais ágil.
+                    </p>
+                    <div class="container mb-5 mt-5">
+                        <h2>Pedido de Venda!</h2>
+                        <div id="linha"></div>
+                    </div>
+                    <div class="container principal">
+                        <div class="container img-principal">
+                            <img class="img-responsive" src="/images/PedOtico.png" alt="">
+                        </div>
+                    </div>
+                    <p style="margin-top: 10px;"> No pedido de venda é possivel realizar orçamentos ou vendas de
+                        produtos e serviços de forma ágil e eficiente,
+                        gerando duplicatas e movimetacões em caixa, nele também consta com diferentes modelos de
+                        relatório para impressão,
+                        e também consta com varios relatórios para a gestão da suas vendas. Dessa forma aumentando sua
+                        produtivdade e eficiencia.
+                    </p>
+                    <div class="container mb-5 mt-5">
+                        <h2>NF-e e NFC-e!</h2>
+                        <div id="linha"></div>
+                    </div>
+                    <div class="container imagem-slide">
+                        <div class="imagem nfeOp img-responsive">
+                            <p>NF-e</p>
+                        </div>
+                        <div class="imagem nfceOp img-responsive">
+                            <p>NFC-e</p>
+                        </div>
+                    </div>
+                    <ul style="margin-top: 10px;">
+                        <li><strong>NF-e: </strong>O software consta com a parte para emissão de  Nota Fiscal Eletrônica
+                            (NF-e), o sistema
+                            consegue comunicar com a sefaz através dos dados da empresa e do certificado A1 e A3.
+                            Consta com relatório de do xml, para controle contabil.
+                        </li>
+                        <li><strong>NFC-e: </strong>O software consta com a parte para emissão de Nota Fiscal do
+                            Consumidor Eletrônica (NFC-e), o sistema
+                            consegue comunicar com a sefaz através dos dados da empresa e do certificado A1 e A3.
+                            A emissão é feita de forma rápida, sem necessidade de informações do destinatário.
+                            Consta com relatório de do xml, para controle contabil.</li>
+                    </ul>
+                    <div class="container mb-5 mt-5">
+                        <h2>Financeiro!</h2>
+                        <div id="linha"></div>
+                    </div>
+                    <div class="container imagem-slide">
+                        <div class="imagem CaxaOp img-responsive">
+                            <p>Caixa</p>
+                        </div>
+                        <div class="imagem DuplicataOp img-responsive">
+                            <p>Extrato de duplicatas</p>
+                        </div>
+                    </div>
+                    <ul style="margin-top: 10px;">
+                        <li><strong>Caixa: </strong>Dentro do sistema ele consta com a aba própria para controle de
+                            caixa, onde e possível ver
+                            o fluxo de entradas, saidas e sangria, realizar fechamento de caixa e estar sempre no
+                            controle da questão fineceira!
+                        </li>
+                        <li><strong>Duplicatas: </strong>As duplicatas geradas pelos pedidos ou de forma manual podem
+                            ser finalizadas com recibos para oficializar o pagamento.</li>
+                    </ul>
+                    <p><strong>Obs: </strong> Sistema também consta com boleto bancário, facilitando ainda mais o seu
+                        dia a dia!</p>
+                </div>
+                <%- include('components/formulario'); %>
+                    <%- include('components/footer'); %>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+                crossorigin="anonymous"></script>
+            <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
+            <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+            <script>
+                $(function () {
+                    $('.dropdown-toggle').dropdown();
+                });
+            </script>
+</body>
+
+</html>

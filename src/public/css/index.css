@@ -4,29 +4,41 @@ img{
 }
 .navbar{
     border-radius: 10px;
-    background-color: #fff;
+      height: 80px;
+      background-color: transparent !important;
+      border: none;
+      color: white;
+      z-index: 100;
+      transition: background-color 1s ease 0s;
 }
-
+h1{
+  text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    cursor: default;
+}
 h2, h3, a{
     text-align: center;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;;
+    font-family:-apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
     font-weight: 300;
+    cursor: default;
 }
 #linha {
     width: 50%;
-    border-bottom: 2px solid rgb(255, 196, 0);
+    border-bottom: 5px solid rgb(255, 196, 0);
     margin-bottom: 10px;
     margin: 10px auto;
   }
   #linha2 {
     width: 30%;
-    border-bottom: 2px solid rgb(255, 196, 0);
+    border-bottom: 5px solid rgb(255, 196, 0);
     margin-bottom: 10px;
     margin: 20px auto;
   }
   #linha3 {
     width: 70%;
-    border-bottom: 2px solid rgb(255, 196, 0);
+    border-bottom: 5px solid rgb(255, 196, 0);
     margin-bottom: 10px;
     margin: 20px auto;
   }
@@ -36,7 +48,7 @@ h2, h3, a{
    justify-content: center;
    align-items: center;
    font-family: sans-serif;
-
+   transition: all 0.8s;
  }
  .img-slide{
    width: 80%;
@@ -54,6 +66,7 @@ h2, h3, a{
    background-size: cover;
    background-position:center;
    position: relative;
+   border-radius: 10px;
  }
 .img1{
   background-image: url('http://grupobms.com.br/wp-content/uploads/2018/08/winfit-1024x576.jpg');
@@ -64,12 +77,145 @@ h2, h3, a{
 .img3{
   background-image: url('http://grupobms.com.br/wp-content/uploads/2018/09/bannerSegGeral-1024x361.png');
 }
+.cliente{
+  background-image: url('/images/cliente.png');
+}
+.fornecedor{
+  background-image: url('/images/fornecedor.png');
+}
+.resp-tecnico{
+  background-image: url('/images/resp.png');
+}
+.receita1{
+  background-image: url('/images/receita_parte1.png');
+}
+.receita2{
+  background-image: url('/images/receita_parte2.png');
+}
+.receita3{
+  background-image: url('/images/receita_parte3.png');
+}
+
+.cadastroOp{
+  background-image: url('/images/cadastros_inicial.png');
+}
+.vendasOp{
+  background-image: url('/images/vendas_inicial.png');
+}
+.financeiroOp{
+  background-image: url('/images/financeiro_inicial.png');
+}
+.serviçosOP{
+  background-image: url('/images/serviços_inicial.png');
+}
+.ClientesOp{
+  background-image: url('/images/clienteOp.png');
+}
+.ProdutosOp{
+  background-image: url('/images/produtos.png');
+}
+.FornecedorOp{
+  background-image: url('/images/fornecedorOp.png');
+}
+.FuncionárioOP{
+  background-image: url('/images/funcionario.png');
+}
+.nfeOp{
+  background-image: url('/images/nfe.png');
+}
+.nfceOp{
+  background-image: url('/images/nfce.png');
+}
+.CaxaOp{
+  background-image: url('/images/caixa_Op.png');
+}
+.DuplicataOp{
+  background-image: url('/images/ExtratoduplicataOp.png');
+}
+.nfeCad{
+  background-image: url('/images/tela_inicial_NFE.png');
+}
+.nfeVenda{
+  background-image: url('/images/vendas_NFE.png');
+}
+.nfeFinan{
+  background-image: url('/images/financeiro_NFE.png');
+}
+.nfe-NFE{
+  background-image: url('/images/nota_NFE.png');
+}
+.nfce-NFE{
+  background-image: url('/images/nfce_nfe.png');
+}
+.mdfe-NFE{
+  background-image: url('/images/mdfe_NFE.png');
+}
+
+.bmsnfe{
+  background-image: url('/images/marmoraria.jpg');
+}
+.despachante{
+  background-image: url('/images/nota_NFE.png');
+}
+.terraplanagem{
+  background-image: url('/images/terraplanagem.jpg');
+}
+.mecanica{
+  background-image: url('/images/automecanica.jpg');
+}
+.petshop{
+  background-image: url('/images/pet_shop.jpg');
+}
+.despachanteCad{
+  background-image: url('/images/despachante_inicial.png');
+}
+.despachanteVenda{
+  background-image: url('/images/despachante_venda.png');
+}
+.despachanteFinan{
+  background-image: url('/images/despachante_financeiro.png');
+}
+.nfe-despachante{
+  background-image: url('/images/despachante_nfe.png');
+}
+.pedVenda-despachante{
+  background-image: url('/images/despachante_pedVenda.png');
+}
+.ordemServiço-despachante{
+  background-image: url('/images/despachante_OrdemS.png');
+}
+.terraCad{
+  background-image: url('/images/inicial_terraplanagem.png');
+}
+.terraVendas{
+  background-image: url('/images/vendas_serviços_terraplanagem.png');
+}
+.terraFinan{
+  background-image: url('/images/financeiro_terraplanagem.png');
+}
+.nfe-terra{
+  background-image: url('/images/nfe_terraplanagem.png');
+}
+.os-terra{
+  background-image: url('/images/os_terraplanagem.png');
+}
+
+.autoCad{
+  background-image: url('/images/inicial_auto.png');
+}
+.autoVendas{
+  background-image: url('/images/vendas_auto.png');
+}
+.autoFinan{
+  background-image: url('/images/financeiro_auto.png');
+}
 .img p{
   position: absolute;
   left: 0;
   bottom: 0;
   padding: 10px;
   background-color: rgb(0,0,0,0.6);
+  border-radius: 10px;
   transform: rotate(-90deg);
   transition: all 0.8s;
   transform-origin: 0% 0%;
@@ -90,6 +236,7 @@ h2, h3, a{
   transform: rotate(0deg);
   background-color: transparent;
   border: 2px solid #fff;
+  border-radius: 10px;
 }
 .title{
     margin-top: 80px;
@@ -98,6 +245,7 @@ h2, h3, a{
 }
 ::-webkit-scrollbar{
     width: 12px;
+    border-radius: 10px;
 }
 ::-webkit-scrollbar-track{
     background-color: rgb(0,0,0,0.15);
@@ -212,7 +360,8 @@ body{
 .content{
  flex: 1 0 auto;
  -webkit-flex: 1 0 auto;
- min-height: 80px;
+ min-height: 20px;
+ margin-bottom: 100px;
 }
 
 #myFooter{
@@ -234,8 +383,9 @@ body{
   text-align: center;
 }
 #bms{
-  margin-top: 80px;
+  margin-top: 60px;
   margin-bottom: 100px;
+  border-radius: 10px !important;
 }
 #whats{
   position: fixed;
@@ -243,6 +393,10 @@ body{
   height: 60px;
   bottom: 20px;
   right: 20px;
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  
   background-color: #25d366;
   color: #fff;
   border-radius: 50px;
@@ -276,7 +430,7 @@ body{
   transform: rotateZ(-360deg) scale(1.3);
 }
 #config-card{
-  margin-top: 80px !;
+  margin-top: 100px !important;
   margin-bottom: 80px;
 }
 .imagem-apresentacao{
@@ -290,15 +444,157 @@ body{
 .card{
   width: 520px;
   height: 255px;
+  border: 0px !important;
 }
-.img-fluid{
-  height: 154px !important;
-  width: 414px;
-  margin-left: 28px;
+.img-responsive {
+  flex: 1;
+ 
+   cursor: pointer;
+   margin: 0 5px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position:center;
+   position: relative;
+   width: 100%;
+   height: 60vh;
 }
+.principal{
+  display: flex;
+}
+.img-principal{
+  width: 70% !important;
+  height: 60vh;
+}
+.img-principal img{
+  max-width: 100%;
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  
+}
+.img-responsive:hover{
+  -moz-transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+  transition: all 0.8s;
+}
+.imagem-slide{
+  width: 70% !important;
+  height: 60vh;
+  display: flex;
+}
+.imagem{
+  flex: 1;
+  height: 100%;
+  transform: skew(8deg);
+  cursor: pointer;
+  margin: 0 5px;
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  border-radius: 10px;
+  position: relative;
+}
+.imagem1{
+  background-image: url('/images/problemas.png');
+}
+.imagem2{
+  background-image: url('/images/culturas.png');
+}
+.imagem3{
+  background-image: url('/images/diagnosticos.png');
+}
+.imagem p{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  background-color: rgb(0,0,0,0.6);
+  border-radius: 10px;
+  transform: rotate(-90deg);
+  transition: all 0.8s;
+  transform-origin: 0% 0%;
+  color: #fff;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.imagem-slide:hover .imagem{
+  transform: skew(0);
+}
+.imagem:hover{
+  flex: 40;
+  -moz-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 
-
-
-
-
-
+}
+.imagem:hover p {
+  border-radius: 10px;
+  background-color: rgb(0,0,0,0.6);
+  color: rgb(255, 196, 0);
+  transform: rotate(0deg);
+  transition: all 0.8s;
+}
+.formulario{
+  width: 100%;
+  height: 80vh;
+  background-color: #fff;
+  box-shadow: 0 0 1em rgb(29, 28, 28);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-label{
+  text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  color: rgb(10, 10, 10);
+}
+.form-control{
+  width: 400px !important;
+}
+#formulario{
+  box-shadow: 0 0 1em rgb(29, 28, 28);
+  border-radius: 10px;
+}
+fieldset{
+  padding: 30px !important;
+}
+.dark-mode {
+  background-color: rgb(20, 20, 20);
+  color: white;
+  transition: all 0.8s;
+}
+.dark-formulario{
+  color: rgb(10, 10, 10);;
+  transition: all 0.8s;
+}
+html {
+  scroll-behavior: smooth !important;
+}
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; } 
+  }
+  @-moz-keyframes fadeIn {
+  0% { opacity: 0;}
+  100% { opacity: 1; }
+  }
+  @-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+  @keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+  }
+  .fadeIn {
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
+    }

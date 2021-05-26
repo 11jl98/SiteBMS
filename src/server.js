@@ -25,4 +25,12 @@ server.get('/winfit',(req,res)=>{
     return res.render('winfit')
 })
 
+server.get('/optica',(req,res)=>{
+    return res.render('optica')
+})
+
+server.get('/outrosSistemas',(req,res)=>{
+    return res.render('seguimentosGerais')
+})
+
 server.listen(3000, () => console.log('http://localhost:3000'))
