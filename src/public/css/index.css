@@ -447,7 +447,7 @@ body{
   border: 0px !important;
 }
 .img-responsive {
-  flex: 1;
+   flex: 1;
  
    cursor: pointer;
    margin: 0 5px;
